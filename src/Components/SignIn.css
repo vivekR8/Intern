@@ -1,0 +1,59 @@
+.back{
+    height:100vh;
+    width:100vw;
+    background-image: url('https://cdn.pixabay.com/photo/2015/09/07/17/25/right-curve-background-928802_960_720.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.box{   
+    background-image: url('https://cdn4.vectorstock.com/i/1000x1000/96/88/abstract-blue-curve-line-shape-background-design-vector-15709688.jpg');
+    background-repeat:round;
+    background-size:cover;
+        border-radius: 1em;
+        padding: 1em;
+        height:80vh;
+        left:75vw;
+        top:15vh;
+        transform: translate(-60%,-10%);
+        display: flex;
+        flex-direction: column;
+        position:fixed;
+        
+        
+}
+.signin{
+    text-align: center;
+    color: #224699;
+    font-family: serif;
+}
+.box div{
+    margin:1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.input{
+    height:45px;
+    width: 250px;
+    color:rgb(54, 50, 50);
+    background-color:inherit;
+    margin-bottom: 1px solid blue;
+    -webkit-border-radius: 10px;
+    outline:none;
+    border-radius: 50px;
+    text-align: center;
+}
+.butt{
+    align-content: center;
+    justify-content: center;
+    margin-left:2em;
+    width: 70%;
+    padding: 12px 0px;
+    border-radius: 30px;
+    background-color: #888899;
+    color: aliceblue;
+    outline: none;
+}
